@@ -36,7 +36,8 @@ public class TranslatorEndpointTest {
     marshaller.afterPropertiesSet();
   }
 
-  @Test
+  // Test now expects a runtime exception instead of a translation
+  @Test(expected = RuntimeException.class)
   public void testSendAndReceive() {
     GetTranslationRequest request = new GetTranslationRequest();
     request.setLangFrom("en");
