@@ -19,12 +19,12 @@ Solutions must meet primary goals too.
 
 Granted:
 - [Upgrade to WSDL 2.0 and SOAP 1.2](https://github.com/luisgg98/lab2-big-ws/tree/WSDL2.0_AND_SOAP1.2). Achieving this goal Luis García has learnt that the support promised by Spring Web Services for WSDL 2.0 is deceiving but the support for SOAP 1.2 is ok and can be used as transport independed of the WSDL version used :gift:
+- [Re-implement the project with GraphQL](https://github.com/rauljavierre/lab2-big-ws/tree/test). Achieving this goal Raul Javierre has not only learned GraphQL but also has learned that testing asynchronous endpoints (the GraphQL implementation used is exposed through an asynchronous controller) must be split in two steps in Spring MVC; in addition, he has learned not to use JSON strings (hard and error prone) and to use JSON objects instead (easy and powerful) :gift:  
 
 In progress:
 
 - Secure the endpoint [WS-Security](https://docs.spring.io/spring-ws/docs/3.0.10.RELEASE/reference/#security)
 - Re-implement the project with [gRPC](https://yidongnan.github.io/grpc-spring-boot-starter/en/)
-- Re-implement the project with [GraphQL](https://www.graphql-java.com/tutorials/getting-started-with-spring-boot/)
 
 Proposed:
 
@@ -39,7 +39,7 @@ If you desist of your goal, release it by a PR so other fellow can try it.
 
 |NIA    | User name | Repo | Build Status | What was explored | Review for :gift: | Score
 |-------|-----------|------|--------------|-------------------|----------------------|--------
-|758906 |[Raul Javierre](https://github.com/rauljavierre)|[rauljavierre/lab2-big-ws](https://github.com/rauljavierre/lab2-big-ws/tree/test)|![Build Status](https://travis-ci.com/rauljavierre/lab2-big-ws.svg)|JUnit, code generation|Re-implement the project with [GraphQL](https://www.graphql-java.com/tutorials/getting-started-with-spring-boot/)|
+|758906 |[Raul Javierre](https://github.com/rauljavierre)|[rauljavierre/lab2-big-ws](https://github.com/rauljavierre/lab2-big-ws/tree/test)|![Build Status](https://travis-ci.com/rauljavierre/lab2-big-ws.svg)|JUnit, code generation|Re-implement the project with [GraphQL](https://www.graphql-java.com/tutorials/getting-started-with-spring-boot/)| :gift:
 |758267 |[Pedro Allué](https://github.com/piter1902)|[piter1902/lab2-big-ws](https://github.com/piter1902/lab2-big-ws/tree/test) |  [![Build Status](https://travis-ci.com/piter1902/lab2-big-ws.svg?branch=test)](https://travis-ci.com/piter1902/lab2-big-ws)    |  JUnit Tests     |                      |
 |757153 |[Fran Morés](https://github.com/Fran-sw)|[Fran-sw/lab2-big-ws](https://github.com/Fran-sw/lab2-big-ws/tree/test) |[![Build Status](https://travis-ci.com/Fran-sw/lab2-big-ws.svg)](https://travis-ci.com/Fran-sw/lab2-big-ws)       | Spring exceptions (Runtime and Service), JUnit tests|                      |
 |761319 |[Marcos Nuez](https://github.com/Markles01)|[Markles01/lab2-big-ws](https://github.com/Markles01/lab2-big-ws/tree/test) |[![Build Status](https://travis-ci.com/Markles01/lab2-big-ws.svg)](https://travis-ci.com/Markles01/lab2-big-ws)       | JUnit tests, Spring exceptions|                      |
