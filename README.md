@@ -20,11 +20,11 @@ Solutions must meet primary goals too.
 Granted:
 - [Upgrade to WSDL 2.0 and SOAP 1.2](https://github.com/luisgg98/lab2-big-ws/tree/WSDL2.0_AND_SOAP1.2). Achieving this goal Luis García has learnt that the support promised by Spring Web Services for WSDL 2.0 is deceiving but the support for SOAP 1.2 is ok and can be used as transport independed of the WSDL version used :gift:
 - [Re-implement the project with GraphQL](https://github.com/rauljavierre/lab2-big-ws/tree/test). Achieving this goal Raul Javierre has not only learned GraphQL but also has learned that testing asynchronous endpoints (the GraphQL implementation used is exposed through an asynchronous controller) must be split in two steps in Spring MVC; in addition, he has learned not to use JSON strings (hard and error prone) and to use JSON objects instead (easy and powerful) :gift:  
+- [Re-implement the project with gRPC](https://github.com/saul205/lab2-big-ws/tree/gift). Achieving this goal Saúl Flores has learned that the similitudes and differences between Protobuf/gRPC and WSDL/SOAP. In addition he has learned to use Protobuf and generate code from Protobuf definitions :gift: 
 
 In progress:
 
 - Secure the endpoint [WS-Security](https://docs.spring.io/spring-ws/docs/3.0.10.RELEASE/reference/#security)
-- Re-implement the project with [gRPC](https://yidongnan.github.io/grpc-spring-boot-starter/en/)
 
 Proposed:
 
@@ -43,7 +43,7 @@ If you desist of your goal, release it by a PR so other fellow can try it.
 |758267 |[Pedro Allué](https://github.com/piter1902)|[piter1902/lab2-big-ws](https://github.com/piter1902/lab2-big-ws/tree/test) |  [![Build Status](https://travis-ci.com/piter1902/lab2-big-ws.svg?branch=test)](https://travis-ci.com/piter1902/lab2-big-ws)    |  JUnit Tests     |                      |
 |757153 |[Fran Morés](https://github.com/Fran-sw)|[Fran-sw/lab2-big-ws](https://github.com/Fran-sw/lab2-big-ws/tree/test) |[![Build Status](https://travis-ci.com/Fran-sw/lab2-big-ws.svg)](https://travis-ci.com/Fran-sw/lab2-big-ws)       | Spring exceptions (Runtime and Service), JUnit tests|                      |
 |761319 |[Marcos Nuez](https://github.com/Markles01)|[Markles01/lab2-big-ws](https://github.com/Markles01/lab2-big-ws/tree/test) |[![Build Status](https://travis-ci.com/Markles01/lab2-big-ws.svg)](https://travis-ci.com/Markles01/lab2-big-ws)       | JUnit tests, Spring exceptions|                      |
-|755769 |[Saúl Flores](https://github.com/saul205)|[saul205/lab2-big-ws](https://github.com/saul205/lab2-big-ws/tree/test)|![Build Status](https://travis-ci.com/saul205/lab2-big-ws.svg?branch=test)|[JUnit Exception Testing](https://github.com/junit-team/junit4/wiki/Exception-testing)| Re-implement the project with [gRPC](https://yidongnan.github.io/grpc-spring-boot-starter/en/)
+|755769 |[Saúl Flores](https://github.com/saul205)|[saul205/lab2-big-ws](https://github.com/saul205/lab2-big-ws/tree/test)|![Build Status](https://travis-ci.com/saul205/lab2-big-ws.svg?branch=test)|[JUnit Exception Testing](https://github.com/junit-team/junit4/wiki/Exception-testing)| Re-implement the project with [gRPC](https://yidongnan.github.io/grpc-spring-boot-starter/en/) [saul205/lab2-big-ws/gift](https://github.com/saul205/lab2-big-ws/tree/gift) | :gift:
 |739202 |[Luis García](https://github.com/luisgg98)|[luisgg98/lab2-big-ws](https://github.com/luisgg98/lab2-big-ws/) |  [![Build Status](https://travis-ci.com/luisgg98/lab2-big-ws.svg)](https://travis-ci.com/luisgg98/lab2-big-ws)    |  Exception Tests  |  [Upgrade to WSDL 2.0 and SOAP 1.2](https://github.com/luisgg98/lab2-big-ws/tree/WSDL2.0_AND_SOAP1.2) | :gift: |  
 |756123 |[Rogelio Lacruz](https://github.com/RogorStuff)|[RogorStuff/lab2-big-ws](https://github.com/RogorStuff/lab2-big-ws/tree/test) |[![Build Status](https://travis-ci.org/RogorStuff/lab2-big-ws.svg)](https://travis-ci.org/RogorStuff/lab2-big-ws)    | Spring exceptions, JUnit tests |                      |
 |760704 |[Álvaro García](https://github.com/Alvarogd6)|[Alvarogd6/lab2-big-ws](https://github.com/Alvarogd6/lab2-big-ws/tree/test)|![Build Status](https://travis-ci.com/Alvarogd6/lab2-big-ws.svg?branch=test)|JUnit, Spring ws exceptions|    |
